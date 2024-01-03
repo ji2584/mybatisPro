@@ -42,7 +42,7 @@ public class Main02Professor1xml {
 	}
 
 
-	private static void print(List li) {
+	public static void print(List li) {
 				
 		for(Object o : li) {
 			System.out.println(o);

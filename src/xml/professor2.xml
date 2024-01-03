@@ -28,7 +28,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		order="BEFORE">
 		select nvl(max(profno) +1,1111) a from professor
 		</selectKey>
-		insert into professor
+		insert into professor  
 		values
 		(#{profno},#{name},#{id},#{position},#{pay},sysdate,0,#{deptno},#{email},'')
 

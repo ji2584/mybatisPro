@@ -19,7 +19,7 @@ public class Main03Professor2xml {
    public static void main(String[] args) {
       
       
-      SqlSession sqlSession = MybatisConnection.getConnection();
+      SqlSession sqlSession =MybatisConnection.getConnection();
       List<Integer> datas =Arrays.asList(101,102);
       Map map = new HashMap<>();
       //map.put("position", "정교수");

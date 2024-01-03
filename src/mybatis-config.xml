@@ -6,6 +6,7 @@ PUBLIC "-//mybatis.org//DTD config 3.0//EN"
 <typeAliases>
 <typeAlias type="model.KicMember" alias="kicmember"></typeAlias>
 <typeAlias type="model.Professor" alias="professor"></typeAlias>
+<typeAlias type="model.Student" alias="student"></typeAlias>
 
 
 </typeAliases>
@@ -26,6 +27,10 @@ PUBLIC "-//mybatis.org//DTD config 3.0//EN"
 			<mapper resource = "xml/kicmember.xml"></mapper>
 			<mapper resource = "xml/professor1.xml"></mapper>
 			<mapper resource = "xml/professor2.xml"></mapper>
+			<mapper resource = "xml/student1.xml"></mapper>
+			<mapper resource = "xml/student2.xml"></mapper>
+			<mapper class="anno.ProfessorAnno"></mapper>
+			
 			</mappers>
 		
 
